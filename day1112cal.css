@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap");
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+/* .js-mainsection {
+  
+} */
+
+#js-row1,
+#js-row2,
+#js-row3,
+#js-row4,
+#js-row5 {
+  width: 630px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+
+#js-789,
+#js-456,
+#js-123,
+#js-zeroequal {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+}
+/* every cells incl. result form ↓ */
+.js-btn,
+.js-result
+/* ,.form  */ {
+  height: 60px;
+  border-radius: 15px;
+  margin: 0 4px;
+}
+input:focus {
+  outline: none;
+}
+#js-1,
+#js-2,
+#js-3,
+#js-4,
+#js-5,
+#js-6,
+#js-7,
+#js-8,
+#js-9,
+#js-equals,
+#js-plus,
+#js-minus,
+#js-multiply,
+#js-division,
+#js-reset {
+  width: 150px;
+}
+#js-0 {
+  width: 307px;
+}
+.js-result {
+  width: 420px;
+  font-family: sans-serif;
+  text-align: right;
+  line-height: 60px;
+  padding: 0 20px;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 50px;
+  color: pink;
+  background-color: black;
+  border: 0;
+}
+#js-0,
+#js-1,
+#js-2,
+#js-3,
+#js-4,
+#js-5,
+#js-6,
+#js-7,
+#js-8,
+#js-9,
+#js-equals {
+  background-color: #363439;
+}
+#js-plus,
+#js-minus,
+#js-multiply,
+#js-division {
+  background-color: #fe8e02;
+}
+#js-reset {
+  background-color: #a7aab1;
+}
+.js-btn {
+  border: 0;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+}
+.js-btn:active {
+  opacity: 0.3;
+}

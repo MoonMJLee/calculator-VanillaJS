@@ -1,0 +1,59 @@
+<!-- The calculator should:
+
+Have a reset (C) button.
+Support all basic operations (+ , - , * , / )
+Support for 'equals' ( = ) button.
+Allow value carrying. i.e 2 * 2 * 2 * 2 * 2  without pressing equals.
+Don't give up! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+     <link rel="stylesheet" href="day1112cal.css" />
+  </head>
+
+  <body>
+    <section class="js-mainsection">
+        <div id="js-row1">
+            <div class="js-result">0</div>
+          <!-- <form class="form"> 
+            <input type="text" id="js-result" placeholder="0" disabled="true"></input>
+          </form>                    -->
+        <input class="js-btn btnreset" id="js-reset" type="button" value="C" ></input>
+      </div>
+      <div id="js-row2">
+        <span id="js-789">
+          <input class="js-btn btnnums" id="js-7" type="button" value="7" ></input>
+          <input class="js-btn btnnums" id="js-8" type="button" value="8" ></input>
+          <input class="js-btn btnnums" id="js-9" type="button" value="9" ></input>
+        </span>
+        <input class="js-btn btnops" id="js-plus" type="button" value="+" ></input>
+      </div>
+      <div id="js-row3">
+        <span id="js-456">
+          <input class="js-btn btnnums" id="js-4" type="button" value="4" ></input>
+          <input class="js-btn btnnums" id="js-5" type="button" value="5" ></input>
+          <input class="js-btn btnnums" id="js-6" type="button" value="6" ></input>
+        </span>
+        <input class="js-btn btnops" id="js-minus" type="button" value="-" ></input>
+      </div>
+      <div id="js-row4">
+        <span id="js-123">
+          <input class="js-btn btnnums" id="js-1" type="button" value="1" ></input>
+          <input class="js-btn btnnums" id="js-2" type="button" value="2" ></input>
+          <input class="js-btn btnnums" id="js-3" type="button" value="3" ></input>
+        </span>
+        <input class="js-btn btnops" id="js-multiply" type="button" value="*️" ></input>
+      </div>
+      <div id="js-row5">
+        <span id="js-zeroequals">
+          <input class="js-btn btnnums" id="js-0" type="button" value="0" ></input>
+          <input class="js-btn btnequals" id="js-equals" type="button" value="=" ></input>
+        </span>
+        <input class="js-btn btnops" id="js-division" type="button" value="/" ></input>
+      </div>   
+    </section>
+    <script src="day1112cal.js"></script>
+  </body>
+</html>
